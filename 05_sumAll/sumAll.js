@@ -5,7 +5,7 @@ const sumAll = function(first,second) {
         second<0
         ) {return "ERROR"}
 
-
+    // The sum is divided into a sum from 1 to n+1 AND (n+1) * min
     min=Math.min(first,second)
     n=Math.abs(first-second)+1
 
